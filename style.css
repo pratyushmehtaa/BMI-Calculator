@@ -1,0 +1,67 @@
+
+#card{
+    border: 2px solid red;
+    border-radius: 10px;
+    
+    height: 415px;
+    width: 600px;
+    text-align: center;
+    background-image: url("./images/div-background.png");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./images/bmi_background.jpg");
+    background-size:     cover;                     
+    background-repeat:   no-repeat;
+
+}
+h1{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+font-family: 'Red Hat Display', sans-serif;
+    color: black;
+    font-size: 50px;
+    background-color: burlywood;
+}
+#answer{
+    border: 1px solid black;
+    font-family: 'Recursive', sans-serif;
+    background-color: bisque;
+    border-radius: 15px;
+    color: black;
+}
+
+button{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+    font-size: 25px;
+    background-color: burlywood;
+    color:blue;
+    border-radius: 10px;
+}
+#your-bmi{
+    font-family: 'Recursive', sans-serif;
+   
+}
+
+#height-label{
+   
+    font-family: 'Recursive', sans-serif;
+    
+}
+#weight-label{
+   
+    font-family: 'Recursive', sans-serif;
+}  
+#input-format{
+    font-family: 'Recursive', sans-serif;
+    
+}
+#height,#weight{
+    box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    border-radius:10px;
+    width :auto;
+}

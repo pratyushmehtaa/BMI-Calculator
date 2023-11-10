@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One&family=Recursive:wght@300&family=Red+Hat+Display:ital,wght@1,300&display=swap');
+
+  </style>
+</head>
+<body background="Project self/images/bmi_background.jpg">
+
+   <div id="card">
+    <h1>BMI Calculator</h1>
+    <!--Select Choice dropdown-->
+    <label id="input-format">Choose The Input Format:</label>
+
+<select name="dimensions" id="dimensions">
+  <option value="op0">Select</option>
+  <option value="op1">Kg and Meters</option>
+  <option value="op2">Kg and Cm</option>
+</select><br><br>
+    <!--inputs and button to calculate-->
+    
+    <label id="height-label">Height:</label>
+    <input type="text" id="height"><br><br>
+    <label id="weight-label">Weight:</label>
+    <input type="text" id="weight"><br><br>
+    <h2 id = "your-bmi">Your BMI is</h2>
+    <button>Calculate</button>
+    <h2 id="answer"></h2>
+   </div>
+
+<script src="index.js"></script>    
+</body>
+</html>
